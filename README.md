@@ -13,7 +13,7 @@ Pasos con los que armamos el repo de github de HOgit.
 
 ## Cómo creamos este repositorio
 
-Inicialmente estaba creado en github (desde la WEB) con 
+Inicialmente estaba creado en github (desde la WEB) con
 sólo un README. EN cualquier lugar pueden (y deberían!)
 correr `git status` y `git branch -a` para chequear
 en qué estado está el repositorio y en qué branch están:
@@ -26,7 +26,7 @@ git clone https://github.com/wtpc/HOgit.git
 cd HOgit
 ```
 
-Editamos el archivo de README y hacemos un nuevo commit
+Editamos el archivo de README y hacemos un nuevo commit(debería aparecer esto)
 
 ```
 vi README.md
@@ -47,7 +47,7 @@ y nos movemos a ella
 git checkout charlas
 ```
 
-en esta branch, editamos README.md de nuevp
+en esta branch, editamos README.md de nuevo (arreglado)
 
 ```
 vi README.md
@@ -79,7 +79,7 @@ git commit
 ```
 
 Y ahora, en master, hacemos un merge de ambas branches por separado:
-(fíjense que no importa que el orden sea el mismo que en el que 
+(fíjense que no importa que el orden sea el mismo que en el que
 las modificamos. es sensato porque las branches no se comunican)
 
 ```
